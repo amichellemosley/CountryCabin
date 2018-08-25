@@ -1,0 +1,222 @@
+
+
+* {box-sizing: border-box;
+max-height: 100px}
+body {font-family: Times;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+
+.slideshow-container {
+  max-width: 400px;
+  position: center;
+  margin: auto;
+}
+
+.text {
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  height: 5px;
+  width: 5px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+@-media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+iframe { text-align: center;
+}
+
+
+article {
+font-family: Times;
+font-size: 9pt;
+text-align: left;
+padding-left:120px;
+padding-right: 120px;
+}
+
+
+
+a,
+.button {
+    color: #936b0e;
+    background: #fcf2dc;
+    border: 1px #fcf2dc solid;
+    padding: 5px 10px;
+    border-radius: 2px;
+	font-family: Times;
+    font-weight: bold;
+    font-size: 9pt;
+    outline: none;
+}
+
+@button-color: #fcf2dc;
+@button-color-hover:  darken(@link-color, 10%);
+
+a:hover {
+  color: @link-color-hover;
+}
+header{ 
+font-family: Time;
+text-align: center;
+}
+
+
+
+button:active {
+    box-shadow: @link-color-hover;   
+}
+input {
+    width: 100%;
+}
+
+
+input[type=text] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 6px 0;
+    box-sizing: border-box;
+}
+
+body{
+background-color: fcf2dc;
+font-family: Times;
+font-size: 12px;
+text-align: Left;
+padding: 60px;
+}
+
+@body-background-color: fcf2dc;
+@body-font-family: Times;
+@body-font-size: 20px;
+@body-text-align: center;
+
+
+h3,
+.h3 {line-height: 2em;
+font-family: Times;
+color: black;
+text-align: center;}
+
+@h1-line-height: 2em;
+@h1-font-family: Times;
+@h1-color: black;
+@h1-text-align: center;
+
+li,
+.li {background-color: fcf2dc;
+color: black;
+text-decoration: none;
+}
+
+@li-background-color: fcf2dc;
+@li-color: black;
+@text-decoration: none;
+
+
+footer,
+.footer {line-height: 2em;
+font-family: Times;
+color: black;
+text-align: center;}
+
+@footer-line-height: 2em;
+@footer-font-family: Times;
+@footer-color: black;
+@footer-text-align: center;
+
+body {
+	Background-color: #fcf2dc;
+	text-align: center;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #936b0e;
+  text-align: center;
+  padding-top: 20px;
+  text-decoration: none;
+}
+
+
+.content {
+  padding: 14px;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+.sticky + .content {
+  padding-top: 60px;
+ 
+} 
+
+
+
+
+
+
+
+
+
